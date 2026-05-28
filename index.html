@@ -1,0 +1,366 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Fusion Beetroot — Power BI Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+  --primary:#6B1A3A;
+  --primary-light:#9E2A5A;
+  --accent:#E8B86D;
+  --bg:#FDF5F8;
+  --card:#FFFFFF;
+  --text:#2C1A22;
+  --muted:#6B6870;
+  --shadow:0 10px 30px rgba(107,26,58,0.10);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Inter', sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+}
+
+header{
+  background:
+  linear-gradient(
+    135deg,
+    #6B1A3A 0%,
+    #8A214D 100%
+  );
+  color:white;
+  text-align:center;
+  padding:5rem 1.5rem;
+}
+
+header h1{
+  font-size:3rem;
+  font-weight:700;
+  margin-bottom:.5rem;
+}
+
+header p{
+  color:var(--accent);
+  font-size:1.05rem;
+}
+
+.container{
+  max-width:1200px;
+  margin:auto;
+  padding:3rem 1.5rem;
+}
+
+.section-title{
+  color:var(--primary);
+  font-size:1.8rem;
+  margin-bottom:1rem;
+}
+
+.about{
+  background:var(--card);
+  border-radius:20px;
+  padding:2rem;
+  box-shadow:var(--shadow);
+  margin-bottom:3rem;
+}
+
+.about p{
+  color:var(--muted);
+  font-size:1rem;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(320px,1fr));
+  gap:1.5rem;
+}
+
+.card{
+  background:var(--card);
+  border-radius:24px;
+  padding:2rem;
+  box-shadow:var(--shadow);
+  transition:.25s ease;
+  border:1px solid rgba(107,26,58,.06);
+}
+
+.card:hover{
+  transform:translateY(-6px);
+}
+
+.badge{
+  display:inline-block;
+  background:rgba(232,184,109,.18);
+  color:var(--primary);
+  padding:.35rem .8rem;
+  border-radius:999px;
+  font-size:.75rem;
+  font-weight:600;
+  margin-bottom:1rem;
+}
+
+.card h3{
+  color:var(--primary-light);
+  font-size:1.35rem;
+  margin-bottom:.8rem;
+}
+
+.card p{
+  color:var(--muted);
+  font-size:.95rem;
+  margin-bottom:1.2rem;
+}
+
+.features{
+  list-style:none;
+  margin-bottom:1.5rem;
+}
+
+.features li{
+  margin-bottom:.45rem;
+  color:#4d4750;
+  font-size:.92rem;
+}
+
+.btn{
+  display:inline-block;
+  background:var(--primary);
+  color:white;
+  text-decoration:none;
+  padding:.85rem 1.3rem;
+  border-radius:12px;
+  font-size:.92rem;
+  font-weight:600;
+  transition:.25s ease;
+}
+
+.btn:hover{
+  background:var(--primary-light);
+}
+
+.contact{
+  margin-top:4rem;
+  background:white;
+  border-radius:24px;
+  padding:2rem;
+  box-shadow:var(--shadow);
+  text-align:center;
+}
+
+.contact h2{
+  color:var(--primary);
+  margin-bottom:.7rem;
+}
+
+.contact p{
+  color:var(--muted);
+}
+
+.contact a{
+  color:var(--primary);
+  text-decoration:none;
+  font-weight:600;
+}
+
+footer{
+  text-align:center;
+  padding:2rem;
+  color:#888;
+  font-size:.9rem;
+}
+
+@media(max-width:768px){
+
+header{
+  padding:4rem 1.5rem;
+}
+
+header h1{
+  font-size:2.2rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Fusion Beetroot</h1>
+  <p>
+    Hospitality Consulting · Food & Beverage · Power BI Analytics
+  </p>
+</header>
+
+<div class="container">
+
+  <section class="about">
+    <h2 class="section-title">
+      Food & Beverage Intelligence Through Data
+    </h2>
+
+    <p>
+      Fusion Beetroot specialises in Food & Beverage consulting,
+      Food & Beverage operations and business intelligence.
+      These Power BI dashboards are designed to transform
+      operational data into executive-level decision making,
+      helping hotel management teams improve revenue,
+      operational efficiency and guest experience.
+    </p>
+  </section>
+
+  <h2 class="section-title">
+    Power BI Projects
+  </h2>
+
+  <div class="cards">
+
+    <!-- PROJECT 1 -->
+    <div class="card">
+
+      <span class="badge">
+        Hospitality Analytics
+      </span>
+
+      <h3>
+        Hotel POS Executive Dashboard
+      </h3>
+
+      <p>
+        Executive-level F&B analytics including
+        revenue trends, outlet performance,
+        guest behaviour and menu mix.
+      </p>
+
+      <ul class="features">
+        <li>✓ Executive Summary</li>
+        <li>✓ Outlet Performance</li>
+        <li>✓ Product & Menu Analysis</li>
+        <li>✓ Service & Operations</li>
+        <li>✓ Operational Planning</li>
+        <li>✓ Time Intelligence</li>
+      </ul>
+
+      <a class="btn"
+         href="PASTE_POWER_BI_LINK_HERE"
+         target="_blank">
+         View Interactive Dashboard
+      </a>
+
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="card">
+
+      <span class="badge">
+        End of Season Analysis
+      </span>
+
+      <h3>
+        Labour Cost & Productivity Dashboard
+      </h3>
+
+      <p>
+        Labour efficiency analysis for hospitality
+        operations with payroll cost monitoring,
+        staffing optimisation and productivity KPIs.
+      </p>
+
+      <ul class="features">
+        <li>✓ Labour Cost Analysis</li>
+        <li>✓ Staffing Efficiency</li>
+        <li>✓ Productivity KPIs</li>
+        <li>✓ Outlet Cost Tracking</li>
+      </ul>
+
+      <a class="btn"
+         href="PASTE_POWER_BI_LINK_HERE"
+         target="_blank">
+         View Interactive Dashboard
+      </a>
+
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="card">
+
+      <span class="badge">
+        Guest Experience Analytics
+      </span>
+
+      <h3>
+        Guest Satisfaction KPI Dashboard
+      </h3>
+
+      <p>
+        Guest experience analytics including
+        satisfaction trends, feedback monitoring,
+        service quality indicators and sentiment KPIs.
+      </p>
+
+      <ul class="features">
+        <li>✓ Satisfaction Trends</li>
+        <li>✓ Service Quality KPIs</li>
+        <li>✓ Feedback Analytics</li>
+        <li>✓ Executive Insights</li>
+      </ul>
+
+      <a class="btn"
+         href="PASTE_POWER_BI_LINK_HERE"
+         target="_blank">
+         View Interactive Dashboard
+      </a>
+
+    </div>
+
+  </div>
+
+  <section class="contact">
+
+    <h2>
+      Looking for Hospitality BI Solutions?
+    </h2>
+
+    <p>
+      Fusion Beetroot helps hotels transform
+      operational and Food & Beverage data
+      into measurable business performance.
+    </p>
+
+    <br>
+
+    <p>
+      Contact:
+      <a href="mailto:info@fusionbeetroot.com">
+        info@fusionbeetroot.com
+      </a>
+    </p>
+
+  </section>
+
+</div>
+
+<footer>
+  Fusion Beetroot · Hospitality Consulting & Power BI Analytics
+</footer>
+
+</body>
+</html>
+```
