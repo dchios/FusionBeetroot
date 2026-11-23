@@ -1,4 +1,4 @@
-# FusionBeetroot
+# FusionBeetroot 
 # Power BI Development 
 With nearly 30 years of experience in the hospitality industry — including senior roles in city hotels, luxury resorts, and international chains — I have built a career grounded in operational leadership, financial strategy, and data-informed decision-making.
 
